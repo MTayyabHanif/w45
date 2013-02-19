@@ -1,0 +1,50 @@
+////////////////////////////////////////////////////////////////////// 
+//  00 - Mixins
+/////////////////////////////////////////////////////////////////////
+
+
+
+
+
+////////////////////////////////////////////////////////////////////// 
+//  Layout 
+/////////////////////////////////////////////////////////////////////
+
+//Frameless
+// Column-widths in a function, in ems
+
+@mixin width ($cols:1) {
+	width: ($cols * ($column + $gutter) - $gutter) / $em;
+}
+
+
+@mixin height ($cols:1) {
+	height: ($cols * ($column + $gutter) - $gutter) / $em;
+}
+
+
+////////////////////////////////////////////////////////////////////// 
+//  Visual/Objects
+/////////////////////////////////////////////////////////////////////
+
+//shadow
+ @mixin shadow_spacer($position){
+	background: transparent url(../images/ui/big_shadow.png) $position center no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size:  100%;
+    -o-background-size:  100%;
+    background-size:  100%;
+
+}
+
+//shadow left
+ @mixin shadow_spacer_left($position){
+	background: transparent url(../images/ui/half_shadow_left.png) $position center no-repeat;
+    -webkit-background-size: 100%;
+    -moz-background-size:  100%;
+    -o-background-size:  100%;
+    background-size:  100%;
+
+}
+
+

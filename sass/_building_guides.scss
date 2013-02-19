@@ -1,0 +1,207 @@
+
+
+
+@import "settings";
+@import "frameless";
+@import "common";
+@import "mixins";
+@import "compass/css3";
+@import "breakpoint";
+@import "breakpoint_settings";
+
+
+////////////////////////////////////////////////////////////////////// 
+//  Browser Size
+//////////////////////////////////////////////////////////////////////
+
+#browser-size{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:$cols2;
+	height:$spacer;
+	background: $c1;
+	color: $c2;
+	padding:$spacer/2;
+	font-size:70%;
+}
+
+// #cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30
+
+
+//4
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-4cols) {display:none}
+}
+#cols4{@include breakpoint($breakpoint-4cols) {display:block}}
+
+
+//5
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-5cols) {display:none}
+}
+#cols5{@include breakpoint($breakpoint-5cols) {display:block}}
+
+
+//6
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-6cols) {display:none}
+}
+#cols6{@include breakpoint($breakpoint-6cols) {display:block}}
+
+
+//7
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-7cols) {display:none}
+}
+#cols7{@include breakpoint($breakpoint-7cols) {display:block}}
+
+
+//8
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-8cols) {display:none}
+}
+#cols8{@include breakpoint($breakpoint-8cols) {display:block}}
+
+
+//9
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-9cols) {display:none}
+}
+#cols9{@include breakpoint($breakpoint-9cols) {display:block}}
+
+
+//10
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-10cols) {display:none}
+}
+#cols10{@include breakpoint($breakpoint-10cols) {display:block}}
+
+//11
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-11cols) {display:none}}
+#cols11{@include breakpoint($breakpoint-11cols) {display:block}}
+
+//12
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-12cols) {display:none}
+}
+#cols12{@include breakpoint($breakpoint-12cols) {display:block}}
+
+//13
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-13cols) {display:none}}
+#cols13{@include breakpoint($breakpoint-13cols) {display:block}}
+
+
+//14
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-14cols) {display:none}
+}
+#cols14{@include breakpoint($breakpoint-14cols) {display:block}}
+
+//15
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-15cols) {display:none}}
+#cols15{@include breakpoint($breakpoint-15cols) {display:block}}
+
+//16
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-16cols) {display:none}
+}
+#cols16{@include breakpoint($breakpoint-16cols) {display:block}}
+
+//17
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-17cols) {display:none}}
+#cols17{@include breakpoint($breakpoint-17cols) {display:block}}
+
+
+//18
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{
+	@include breakpoint($breakpoint-18cols) {display:none}
+}
+#cols18{@include breakpoint($breakpoint-18cols) {display:block}}
+
+//19
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-19cols) {display:none}}
+#cols19{@include breakpoint($breakpoint-19cols) {display:block}}
+
+//20
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-20cols) {display:none}}
+#cols20{@include breakpoint($breakpoint-20cols) {display:block}}
+
+//21
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-21cols) {display:none}}
+#cols21{@include breakpoint($breakpoint-21cols) {display:block}}
+
+//22
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-22cols) {display:none}}
+#cols22{@include breakpoint($breakpoint-22cols) {display:block}}
+
+//23
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-23cols) {display:none}}
+#cols23{@include breakpoint($breakpoint-23cols) {display:block}}
+
+
+//24
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-24cols) {display:none}}
+#cols24{@include breakpoint($breakpoint-24cols) {display:block}}
+
+
+//25
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-25cols) {display:none}}
+#cols25{@include breakpoint($breakpoint-25cols) {display:block}}
+
+//26
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-26cols) {display:none}}
+#cols26{@include breakpoint($breakpoint-26cols) {display:block}}
+
+
+//27
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-27cols) {display:none}}
+#cols27{@include breakpoint($breakpoint-27cols) {display:block}}
+
+//28
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-28cols) {display:none}}
+#cols28{@include breakpoint($breakpoint-28cols) {display:block}}
+
+//29
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-29cols) {display:none}}
+#cols29{@include breakpoint($breakpoint-29cols) {display:block}}
+
+//30
+#cols4, #cols5, #cols6, #cols7, #cols8, #cols9, #cols10, #cols11, #cols12, #cols13, #cols14, #cols15, #cols16, #cols17, #cols18, #cols19, #cols20, #cols21, #cols22, #cols23, #cols24, #cols25, #cols26, #cols27, #cols28, #cols29, #cols30{@include breakpoint($breakpoint-30cols) {display:none}}
+#cols30{@include breakpoint($breakpoint-30cols) {display:block}}
+
+
+
+////////////////////////////////////////////////////////////////////// 
+//  Box Colors (TESTING)
+//////////////////////////////////////////////////////////////////////
+
+// nav{background-color: rgba(0, 0, 0, .2) !important;
+// -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1)
+//     }
+// header{background-color: rgba(255, 0, 0, .1); 
+// 	-webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+// }
+// section{background-color: rgba(0, 255, 0, .1);
+// -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1)}
+// article{background-color: rgba(0, 0, 255, .1);
+// -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1)}
+// footer{background-color: rgba(255, 0, 0, .1);
+// -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1)}
+// .container{background-color: rgba(0, 0, 0, .1);}
+
+// .wrap{background-color: rgba(0, 255, 0, .1);
+// -webkit-box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1);
+//     box-shadow: inset 0px 0px 0px 1px rgba(255, 255, 255, 1)}
+
+
+
+
+
+
+

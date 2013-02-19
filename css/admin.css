@@ -1,0 +1,95 @@
+/*
+	Frameless			<http://framelessgrid.com/>
+	by Joni Korpi 		<http://jonikorpi.com/>
+	licensed under CC0	<http://creativecommons.org/publicdomain/zero/1.0/>
+*/
+/* line 63, ../sass/_settings.scss */
+.text_small {
+  font-size: .8em !important;
+  padding: 2% 0; }
+
+/* line 68, ../sass/_settings.scss */
+a {
+  font-smooth: always !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important; }
+
+/* line 70, ../sass/_settings.scss */
+h1, h2, h3, h4, h5 {
+  font-weight: normal !important;
+  font-smooth: always !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important; }
+
+/*
+	Frameless			<http://framelessgrid.com/>
+	by Joni Korpi 		<http://jonikorpi.com/>
+	licensed under CC0	<http://creativecommons.org/publicdomain/zero/1.0/>
+*/
+/* line 4, ../sass/_common.scss */
+.hide {
+  display: none !important; }
+
+/* line 5, ../sass/_common.scss */
+.show {
+  display: block; }
+
+/* line 6, ../sass/_common.scss */
+.no_border {
+  border: none !important; }
+
+/* line 8, ../sass/_common.scss */
+.visuallyhidden {
+  position: absolute;
+  width: 1px;
+  /* Setting this to 0 make it invisible for VoiceOver */
+  height: 1px;
+  /* Setting this to 0 make it invisible for VoiceOver */
+  padding: 0;
+  margin: -1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
+
+/* line 19, ../sass/_common.scss */
+.ir {
+  text-indent: 100% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important; }
+
+/* line 25, ../sass/_common.scss */
+.break {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto; }
+
+/* line 34, ../sass/_common.scss */
+.ellipsis {
+  width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  /* Required for IE8 */
+  -o-text-overflow: ellipsis;
+  /* Required for Opera */
+  text-overflow: ellipsis; }
+
+/* line 43, ../sass/_common.scss */
+pre {
+  white-space: pre-wrap;
+  /* Chrome & Safari */
+  white-space: -moz-pre-wrap;
+  /* Mozilla since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */ }
+
+/* line 12, ../sass/admin.scss */
+#wp-admin-bar-wp-logo > .ab-item .ab-icon {
+  background-image: url(../images/admin/admin-bar-sprite.png); }

@@ -1,0 +1,690 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 156241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/workhorse45.js",
+			"settings":
+			{
+				"buffer_size": 33158,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/sliders/full_royal_touch_project.php",
+			"settings":
+			{
+				"buffer_size": 2353,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 5605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "options.php",
+			"settings":
+			{
+				"buffer_size": 21682,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "inc/sliders/jmpress_slider.php",
+			"settings":
+			{
+				"buffer_size": 5405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/jquery.jmslideshow.js",
+			"settings":
+			{
+				"buffer_size": 7767,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/jmpressSlideshow.scss",
+			"settings":
+			{
+				"buffer_size": 6170,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Package Control: Add Repository"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/MAMP/w45/wp-content/themes/w45/inc/sliders/full_royal_touch_woo_product.php",
+		"/MAMP/w45/wp-content/themes/w45/sass/_container_settings.scss",
+		"/MAMP/w45/wp-content/themes/w45/sass/_settings.scss",
+		"/MAMP/w45/wp-content/themes/w45/footer.php",
+		"/MAMP/w45/wp-content/themes/w45/inc/header_center_fixed_top.php",
+		"/MAMP/w45/wp-content/themes/w45/inc/thumbs/part-thumb-slide-right.php",
+		"/MAMP/w45/wp-content/themes/w45/functions.php",
+		"/MAMP/w45/wp-content/themes/w45/sass/frameless.scss",
+		"/MAMP/w45/wp-content/themes/w45/sass/_building_guides.scss",
+		"/MAMP/w45/wp-content/themes/w45/inc/footers/footer-t1.php",
+		"/MAMP/w45/wp-content/themes/w45/sass/_breakpoint_settings.scss",
+		"/MAMP/w45/wp-content/themes/w45/woocommerce/myaccount/my-account.php",
+		"/MAMP/w45/wp-content/themes/w45/woocommerce/myaccount/my-address.php",
+		"/MAMP/w45/wp-content/themes/w45/sass/style.scss",
+		"/MAMP/w45/wp-content/themes/w45/woocommerce/content-single-product_t1.php",
+		"/Web Resources/tabs+accordion/css/tabs+accordion/themes/underlined.css",
+		"/MAMP/prefare/RMTC/wp-content/themes/prefare/inc/part-ingredients.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/prefare/woocommerce/loop/add-to-cart.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/prefare/woocommerce/content-single-product_t1.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/prefare/sass/_thumbs.scss",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce/single-product/add-to-cart/quantity.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce/single-product/meta.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce_Theme_Trust/myaccount/my-account.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/inc/nav/top_nav_bar.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/header.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/options.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/js/workhorse45.js",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-home.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce/content-single-product_t1.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce/single-product.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/woocommerce/archive-product.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/footer.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-home-full-slideshow2.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/inc/sliders/full_royal_touch_woo_product.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/functions.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/inc/nav/mobile_slide_right.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/single-project.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/single.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/taxonomy-skill.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-home-full-royal-slideshow.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/inc/footers/footer-t1.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/search.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-full-width.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/inc/thumbs/part-thumb-bottom-caption.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/archive.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/author.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/coming-soon.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/index.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/links.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-ajax-sorter.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-archives.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-faq.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-featured-pages.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-full-store.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-portfolio-paginated.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-portfolio.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/page-store-locator.php",
+		"/MAMP/prefare/RMTC/wp-content/themes/w45/sass/woocommerce.scss",
+		"/Web Resources/codrops/ExpandingOverlayEffect/css/default.css",
+		"/MAMP/prefare/wbs_2013_backup/wbsnx3/wp-content/themes/w45/sass/_building_guides.scss",
+		"/MAMP/prefare/wbs_2013_backup/wbsnx3/wp-content/themes/w45/inc/thumbs/part-wbs_shop-thumb.php",
+		"/MAMP/prefare/wbs_2013_backup/wbsnx3/wp-content/themes/w45/js/workhorse45.js",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/inc/sliders/full_royal_touch_woo_product.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/functions.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/header.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/sass/_settings.scss",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/footer.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/sass/_royal_slider_main.scss",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/page-store-locator.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/part-100-thumb.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/woocommerce/content-single-product_t2.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/woocommerce/single-product.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/inc/nav/footer_nav_big.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/sass/woocommerce.scss",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/inc/thumbs/part-bowl-thumb.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/search.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-content/themes/w45/page.php",
+		"/MAMP/prefare/wbs_test_2013/wbsnx3/wp-config.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/sass/_ajax_calendar.scss",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/sass/woocommerce.scss",
+		"/Users/barbaro/Downloads/reveal/includes/project_thumb.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/inc/thumbs/part-bowl-thumb.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/functions.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/inc/nav/footer_nav_big.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/options.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/header.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/inc/thumbs/part-bowls.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/footer.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/page-portfolio.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/js/jquery.zlayer.full.js",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/woocommerce/single-product.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/woocommerce/woocommerce-template.php",
+		"/MAMP/prefare/wbs2013/wp-content/themes/w45/inc/sliders/full_royal_touch_woo_product.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/functions.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/js/theme_trust.js",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/js/jquery.royalslider.js",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/page-home.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/inc/thumbs/part-thumb-slide-right.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/woocommerce/content-product.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/style.css",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/options.php",
+		"/MAMP/prefare/prefare/wp-content/themes/w45/sass/_container_settings.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/woocommerce.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/functions.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/single-product.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/archive-product.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/inc/sliders/full_royal_touch_woo_product.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/js/jquery.toggle-panel.js",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/inc/sliders/full_royal_touch_thumb.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/footer.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/cart/cart.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/_tables.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/header.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/_settings.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/_container_settings.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/single-product/add-to-cart/simple.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/_common.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/js/jquery.royalslider.js",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/cart/totals.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/_building_guides.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/woocommerce/single-product/related.php",
+		"/MAMP/prefare/prefare/wp-content/plugins/ajax-event-calendar/ajax-event-calendar.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/inc/sliders/full_royal_touch_project_thumb.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/inc/sliders/full_royal_touch_project.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/page-home.php",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/sass/royal_slider_main.scss",
+		"/MAMP/prefare/prefare/wp-content/themes/prefare_v6/inc/touch_slider_image_text.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"268",
+			"undefined",
+			"page.small",
+			"#container",
+			"font-family",
+			"nav_bg",
+			".thumb_slider.tabs > ul > li",
+			"selection",
+			".thumb_slider.tabs > ul > li",
+			"h1",
+			"underlined",
+			"accordion",
+			"underlined_t",
+			"input",
+			"underlined",
+			"hover",
+			"remove",
+			"ui/",
+			"social_icons/",
+			"picons",
+			"page_skills",
+			".page_description",
+			"description",
+			"#product_summary p",
+			"w45",
+			"woo",
+			"$small_header_nav_font_color",
+			"$small_header_nav_font_color;",
+			"color",
+			"fonts",
+			"header_small_nav",
+			"view-f",
+			"view-",
+			"pagehead",
+			"zoom",
+			"left_f",
+			"w45_slide_featured",
+			"w45_thumb",
+			"thumbs",
+			"left_f",
+			"meat",
+			"#product_summary h1",
+			"product_title",
+			"green",
+			"single_add_to_cart_button",
+			"fixed_toggle_panel_bg",
+			"gallery_thumb_inside_bg",
+			"footer_bar_bg",
+			"infoBlock",
+			"footer_lo",
+			"footer_logo",
+			"ttrust_analytics",
+			"touchCarousel",
+			"touch",
+			"footable",
+			"crop",
+			"thumbs",
+			"product_list_widget",
+			"single_add_to_cart_button",
+			"featured",
+			"product_sum",
+			"toggle",
+			"plus",
+			"tour_hand",
+			"footer_bar",
+			"tour_button",
+			"copy",
+			"footable",
+			"home_content",
+			"mobilefi",
+			"modal",
+			"mobilef",
+			"mainnavM",
+			"mobilef",
+			"mainnavm",
+			"mobilefix",
+			"mainNavM",
+			"mainnavm",
+			"mainNavM",
+			".js .toggle-panel.boxed ",
+			"boxed",
+			"sprout",
+			"logo",
+			"event-time",
+			"event",
+			"fc-event-time",
+			"$f2",
+			"fc-event-title",
+			"buttons",
+			"button",
+			"about",
+			"big_foot",
+			"about",
+			"toggle",
+			"thumb",
+			"ajax",
+			"shadow_spacer",
+			"shadow",
+			"button",
+			"input",
+			"mainNav",
+			"menu",
+			"header",
+			"logo",
+			"top_logo",
+			"widget",
+			"category",
+			"ajax",
+			"projectbox",
+			"ajax",
+			"trans",
+			"wbs",
+			"tabs",
+			"hideMobi",
+			"custom.js",
+			"boxed",
+			"menu",
+			"@include",
+			"royal",
+			"fill",
+			"mask",
+			"left_fixed",
+			"toggle-panel-content",
+			"woo",
+			".js .toggle-panel.minimal > :first-child",
+			"input",
+			"render_shortcode_eventlist",
+			"do_shortcode"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 156241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								146739,
+								147288
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 99740.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/workhorse45.js",
+					"settings":
+					{
+						"buffer_size": 33158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "inc/sliders/full_royal_touch_project.php",
+					"settings":
+					{
+						"buffer_size": 2353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								204,
+								214
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 5605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5202,
+								5202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "options.php",
+					"settings":
+					{
+						"buffer_size": 21682,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1399,
+								1399
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "inc/sliders/jmpress_slider.php",
+					"settings":
+					{
+						"buffer_size": 5405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/jquery.jmslideshow.js",
+					"settings":
+					{
+						"buffer_size": 7767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								465,
+								465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sass/jmpressSlideshow.scss",
+					"settings":
+					{
+						"buffer_size": 6170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5469,
+								5469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2587.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true
+}

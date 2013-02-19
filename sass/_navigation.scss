@@ -1,0 +1,159 @@
+
+@import "settings";
+@import "frameless";
+@import "common";
+@import "mixins";
+@import "compass/css3";
+@import "breakpoint";
+
+
+///////////////////////////////////////////////////////////////////// 
+// Tiny Nav
+////////////////////////////////////////////////////////////////////
+
+header#header2 #mainNav{ padding:0 0 0 0; width:$cols5; position:absolute; top:$cols1; right:0;}
+header#header2 #mainNav ul{float:right;}
+header#header2 #mainNav li {padding: 0;}
+header#header2 #mainNav li a{font-size:100%; padding:0 0 0 $spacer;}
+
+#menu-mobile, .tinynav{display:none;}
+//.tinynav{display:none; width:$cols2; font-size:120%; position:absolute; right:0;}
+header#header2 #mainNav .tinynav{display:none; width:$cols2 + $spacer; font-size:90%; float:right; right:0; text-transform:uppercase;}
+
+header#header2 #mainNav .tinynav{
+@include breakpoint($breakpoint-4cols) {display:block !important;}
+@include breakpoint($breakpoint-5cols) {display:block !important;}
+@include breakpoint($breakpoint-6cols) {display:block !important;}
+@include breakpoint($breakpoint-7cols) {display:block !important;}
+@include breakpoint($breakpoint-8cols) {display:block !important;}
+@include breakpoint($breakpoint-9cols) {display:none !important;}
+}
+
+header#header2 {padding:$spacer/2 0; position:relative; }
+header#header2, header#header2 .container, header#header2 #logo h1{
+@include breakpoint($breakpoint-4cols) {height:$cols1 + $spacer*1.5;}
+@include breakpoint($breakpoint-5cols) {height:$cols1 + $spacer*1.5;}
+@include breakpoint($breakpoint-6cols) {height:$cols1 + $spacer*1.5;}
+@include breakpoint($breakpoint-7cols) {height:$cols1 + $spacer*1.5;}
+@include breakpoint($breakpoint-8cols) {height:$cols1 + $spacer*1.5;}
+@include breakpoint($breakpoint-9cols) {height:$cols2;}
+}
+//header#header2 .container.inside{float:left;}
+header#header2 .container{position:relative; }
+header#header2, header#header2 #mainNav{
+@include breakpoint($breakpoint-4cols) {display:block;}
+@include breakpoint($breakpoint-5cols) {display:block;}
+@include breakpoint($breakpoint-6cols) {display:block;}
+@include breakpoint($breakpoint-7cols) {display:block;}
+@include breakpoint($breakpoint-8cols) {display:block;}
+@include breakpoint($breakpoint-9cols) {display:none;}
+}
+
+header#header2 #logo h1{padding:0; margin:0; font-size:100% !important;}
+header#header2 #logo h1{position:absolute; top: $spacer;}
+header#header2 #logo h1 img{width:auto; height:100%;}
+header#header2 #logo h1{
+	@include breakpoint($breakpoint-4cols) {float:left; top: 0; left:0; padding:0; margin:0;}
+	@include breakpoint($breakpoint-5cols) {float:left; top: 0; left:0; padding:0; margin:0;}
+	@include breakpoint($breakpoint-6cols) {float:left; top: 0; left:0; padding:0; margin:0;}
+	@include breakpoint($breakpoint-7cols) {float:left; top: 0; left:0; padding:0; margin:0;}
+	@include breakpoint($breakpoint-8cols) {float:left; top: 0; left:0; padding:0; margin:0;}
+	// @include breakpoint($breakpoint-4cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+	// @include breakpoint($breakpoint-5cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+	// @include breakpoint($breakpoint-6cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+	// @include breakpoint($breakpoint-7cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+    //@include breakpoint($breakpoint-8cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:auto ; height:$cols2 !important;}
+    //@include breakpoint($breakpoint-8cols) {float:left;}
+    //@include breakpoint($breakpoint-9cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols3 !important;}
+    //@include breakpoint($breakpoint-10cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols3 !important;}
+}
+
+
+#header_small_nav{ 
+@include breakpoint($breakpoint-4cols) {position:absolute;}
+@include breakpoint($breakpoint-9cols) {position:relative;}
+ }
+ 
+#header_small_nav .menu-small-header-container{
+@include breakpoint($breakpoint-4cols) {display:none !important;}
+@include breakpoint($breakpoint-9cols) {display:block !important;}
+}
+
+#header_small_nav .socialIcons{margin-top:$spacer/2;}
+
+.menu-small-header-container{float:left;}
+
+
+///////////////////////////////////////////////////////////////////// 
+// Navagation Right
+////////////////////////////////////////////////////////////////////
+#right header#header #mainNav{ padding:0 0 0 0; width:$cols5; position:absolute; top:$cols1; right:0;}
+#right header#header #mainNav ul{float:right;}
+#right header#header #mainNav li {padding: 0;}
+#right header#header #mainNav li a{font-size:100%; padding:0 0 0 $spacer;}
+#right header#header #mainNav{
+	@include breakpoint($breakpoint-4cols) {display:block; top:$spacer; }
+	@include breakpoint($breakpoint-6cols) {display:block; top:$spacer; }
+	@include breakpoint($breakpoint-7cols) {display:block; top:$cols1; }
+	@include breakpoint($breakpoint-9cols) {display:block; top:$cols1 + $spacer/2; }
+}
+#right header#header #mainNav #menu-main{
+@include breakpoint($breakpoint-4cols) {display:none;}
+@include breakpoint($breakpoint-5cols) {display:none;}
+@include breakpoint($breakpoint-6cols) {display:none;}
+@include breakpoint($breakpoint-7cols) {display:none;}
+@include breakpoint($breakpoint-8cols) {display:none;}
+@include breakpoint($breakpoint-9cols) {display:block;}
+}
+
+//#right .tinynav{display:none;}
+#right .tinynav{
+@include breakpoint($breakpoint-4cols) {display:block;}
+@include breakpoint($breakpoint-9cols) {display:none;}
+}
+
+#right header#header {padding:$spacer/2 0; position:relative; font-size:100%;}
+#right header#header{
+@include breakpoint($breakpoint-4cols) {height:$cols1; display:block;}
+@include breakpoint($breakpoint-5cols) {height:$cols1; display:block;}
+@include breakpoint($breakpoint-6cols) {height:$cols1; display:block;}
+@include breakpoint($breakpoint-7cols) {height:$cols2 - $spacer; display:block;}
+@include breakpoint($breakpoint-8cols) {height:$cols2 - $spacer;}
+@include breakpoint($breakpoint-9cols) {height:$cols2;}
+}
+#right header#header .container{position:relative;}
+#right header#header{
+@include breakpoint($breakpoint-5cols) {display:block;}
+@include breakpoint($breakpoint-6cols) {display:block;}
+@include breakpoint($breakpoint-11cols) {display:block;}
+}
+#right header#header #logo h1{padding:0; margin:0; font-size:100% !important;}
+#right header#header #logo h1{position:absolute; top: $spacer;}
+#right header#header #logo h1{
+	@include breakpoint($breakpoint-4cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols1 + $spacer !important;}
+	@include breakpoint($breakpoint-6cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols1 + $spacer !important;}
+	@include breakpoint($breakpoint-7cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 !important;}
+    @include breakpoint($breakpoint-8cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 !important;}
+    @include breakpoint($breakpoint-9cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+    @include breakpoint($breakpoint-10cols) {position:absolute; top: 0; left:0; padding:0; margin:0; width:$cols2 + $spacer !important;}
+}
+
+#right #header_small_nav{z-index:9999;}
+#right #header_small_nav a {font-size:70%;}
+#right #header_small_nav a {
+@include breakpoint($breakpoint-4cols) {color:$c3 !important;}
+@include breakpoint($breakpoint-10cols) {color:$c3 !important;}
+@include breakpoint($breakpoint-11cols) {color:$c1 !important;}
+}
+#right #header_small_nav{ 
+@include breakpoint($breakpoint-4cols) {position:relative;}
+@include breakpoint($breakpoint-11cols) {position:relative;}
+
+ }
+
+
+
+
+ ///////////////////////////////////////////////////////////////////// 
+// Navagation Right
+////////////////////////////////////////////////////////////////////

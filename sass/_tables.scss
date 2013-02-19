@@ -1,0 +1,135 @@
+
+@import "settings";
+@import "frameless";
+@import "common";
+@import "mixins";
+@import "compass/css3";
+@import "breakpoint";
+
+
+
+//footable
+.footable > thead > tr > th,.footable > thead > tr > td {
+  position: relative;
+
+}
+
+.footable th.product-thumbnail{
+  width:$cols2;
+}
+
+.footable {
+  border-spacing: 0;
+  width: 100%;
+  border: solid $c1 1px;
+  font-family: $f1;
+  font-size: 80%;
+  color: $c1;
+}
+
+.footable td{
+  vertical-align:top;
+}
+
+.footable.breakpoint > tbody > tr > td.expand {
+  background: url('../images/ui/plus.png') no-repeat 5px center;
+  padding-left: 40px;
+}
+
+.footable.breakpoint > tbody > tr.footable-detail-show > td.expand {
+  background: url('../images/ui/minus.png') no-repeat 5px center;
+}
+
+.footable.breakpoint > tbody > tr.footable-row-detail {
+  background: transparent;
+}
+
+.footable > tbody > tr:hover {
+  //background: $c2;
+}
+
+.footable.breakpoint > tbody > tr:hover:not(.footable-row-detail) {
+  cursor: pointer;
+}
+
+.footable > tbody > tr > td, .footable > thead > tr > th {
+  border-left: 1px solid $c1;
+  border-top: 1px solid $c1;
+  padding: $spacer/2;
+  text-align: left;
+}
+
+.footable > thead > tr > th, .footable > thead > tr > td {
+  // background-color: #dce9f9;
+  // background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
+  // background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
+  // background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
+  // background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
+  // background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
+  // background-image: linear-gradient(to bottom, #ebf3fc, #dce9f9);
+  // -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  // -moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  // box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
+  background: $c1;
+  border-top: none;
+  //text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  color:$white;
+
+}
+
+.footable > thead > tr > th:first-child, .footable > thead > tr > td:first-child {
+ 
+}
+
+.footable > thead > tr > th:last-child, .footable > thead > tr > td:last-child {
+  
+}
+
+.footable > thead > tr > th:only-child, .footable > thead > tr > td:only-child {
+  // -moz-border-radius: 6px 6px 0 0;
+  // -webkit-border-radius: 6px 6px 0 0;
+  // border-radius: 6px 6px 0 0;
+}
+
+.footable > tbody > tr:last-child > td:first-child {
+  // -moz-border-radius: 0 0 0 6px;
+  // -webkit-border-radius: 0 0 0 6px;
+  // border-radius: 0 0 0 6px;
+}
+
+.footable > tbody > tr:last-child > td:last-child {
+  // -moz-border-radius: 0 0 6px 0;
+  // -webkit-border-radius: 0 0 6px 0;
+  // border-radius: 0 0 6px 0;
+}
+
+.footable > tbody img {
+  vertical-align:middle;
+  width: 100%;
+  height:auto;
+  padding:0;
+  margin:0;
+  box-shadow:none !important;
+}
+
+.footable{@include breakpoint($breakpoint-4cols) {font-size:80%; }}
+.footable{@include breakpoint($breakpoint-6cols) {font-size:100%; }}
+
+
+
+//woocommerce
+.footable .coupon .button{margin:0 !important;}
+.footable .coupon input[type="text"]{width:$cols2; margin:0 $spacer 0 0 !important;}
+.cart-sub-total{text-align:right; width:100%; padding:$spacer/2 0;}
+
+.footable th.product-thumbnail {@include breakpoint($breakpoint-4cols) {width:$cols1; }}
+.footable th.product-thumbnail {@include breakpoint($breakpoint-7cols) {width:$cols2; }}
+
+
+
+
+
+
+
+
+

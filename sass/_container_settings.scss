@@ -1,0 +1,401 @@
+
+@import "settings";
+@import "frameless";
+@import "common";
+@import "mixins";
+@import "compass/css3";
+@import "breakpoint";
+
+
+html body{overflow-x:hidden !important;}
+//page
+//body {background: $body_bg; }
+#content p, #meat p,  article.post p {margin: 0 0 $spacer 0;}
+#meat{margin:0px;}
+//#meat h2{margin-top:$spacer/2;}
+li:hover{color:$c2;}
+
+//Mobile Nav
+#pageslide{ background:$c1;}
+#mainNavM{background:$c1; z-index:9999 !important; @include background-size(contain); background-repeat:no-repeat;  }
+#modal a { font-weight: normal; font-size:200%; padding: 0; border: none; text-transform:uppercase; text-align:center; color:$c4; font-family:$f1;}
+#modal a:hover { background: $c2; color:$white;}
+
+
+//Main Nav
+#mainNav li a, #mainNav li{font-family:$f2; color:$main_nav_color !important; border:none !important;}
+
+//header
+#meat{padding-top:0;}
+.wrap.header{background:$header_wrap_bg; @include background-size(100%); z-index:9996 !important;}
+#center_logo_top header#header{
+background:$header_bg; 
+padding: 0 ; margin:0; height:$cols3; @include background-size(cover); border-bottom: solid #000 2px;
+-webkit-box-shadow: inset 0px 0px 1px 0px rgba(255, 255, 255, .5);
+box-shadow: inset 0px 0px 1px 0px rgba(255, 255, 255, .5);
+}
+
+header#header .inside{background:$header_inside_bg; padding: 0 0 ;}
+
+.header_overlay{background:$header_bg; width:150%; margin-left:-25%; position:absolute; height:$cols3; @include background-size(cover); z-index:999;}
+
+//Small Header Nav
+#header_small_nav.wrap{background:$header_small_nav_bg;}
+#header_small_nav .inside{height:$spacer; background:$header_small_nav_inside_bg; padding-bottom:$spacer/4;}
+#header_small_nav li a{text-transform:uppercase !important; font-size:70%; line-height:$spacer; margin:$spacer/2 0 0 0; color:$small_header_nav_font_color;}
+#header_small_nav li a:hover{color:$c2 !important;}
+#header_small_nav li a:before {content: "\002F"; color:$c1; margin:0 $spacer/4;}
+#header_small_nav li:first-child a:before {content: "";}
+
+
+//logo
+header#header .inside #logo{padding:$spacer/2 0;}
+
+//Slideshow
+#homeSlider .infoBlock {background:$slide_text_bg;}
+#homeSlider .infoBlock .inside .one_half{background:$slide_text_inside_bg; color:$white;}
+#homeSlider p, #homeSlider h4, #homeSlider h5{color:$white;}
+
+//homepage
+#homeBanner {}
+#mission.content.wrap{background:$mission_bg;} 
+#mission .inside{background:$mission_inside_bg; padding: $spacer 0 ;} 
+
+//body
+#pageHead{background:$pageHead_bg; }
+#pageHead .container{background:$pageHead_inside_bg; padding: $pageHead_inside_padding; border-bottom: $pageHead_inside_border; margin:$pageHead_inside_margin;}
+.wrap{background:$wrap_bg;}
+.content.wrap {background:$content_bg;}
+.content.wrap .container.inside {background:$content_inside_bg;}
+
+//Sidebar
+aside #sidebar{background:$sidebar_bg; margin-bottom:0;}
+
+//posts
+.meta{color:$c1;}
+.moreLink a span{font-size:100%;}
+article.post h1{line-height:100%;}
+article.post h1 a{line-height:100%;}
+//article.post h1 a:hover{color:$c2;}
+article.post{padding-bottom:$spacer; margin-bottom:$spacer; background:$blog_post_bg;}
+article.post img{width:100%; height:auto; margin-bottom:$spacer;}
+
+//footer
+#big_footer_nav{height:$cols3; background: url(../images/wbs/footer_whywerebetter.png) no-repeat 35% 25%;}
+#big_footer_nav li a {font-family:$f4;}
+.footer_bar{height:$cols1; width:100%; background:$footer_bar_bg; @include background-size(contain);}
+footer.wrap{background:$footer_bg;}
+#footer .inside{background:$footer_inside_bg;}
+#footerNav.wrap {background:$footerNav_bg;}
+#footerNav.wrap .inside {background:$footerNav_inside_bg;}
+#menu-footer li a{font-family:$f4;}
+
+//copywrite
+#copywrite.wrap{background:$copywrite_bg; padding:$spacer/2 0;}
+#copywrite .container.inside{background:$copywrite_inside_bg;}
+//#copywrite .container.inside p{color:$copywrite_text_color;}
+//#copywrite .container.inside a{color:$copywrite_link_color;}
+
+//footer address
+#footer_address{ float:left; margin:0 $spacer/4;}
+#footer_address p:before {content: " \2022 \0020 \0020 \0020"; color:$c1; text-shadow:none !important;}
+
+//Small Footer Nav
+#menu-small-footer li a{text-transform:uppercase !important; font-size:70%; line-height:$spacer; margin:0 $spacer/4 0 0; color:$c1;}
+#menu-small-footer li a:hover{color:$c2 !important;}
+#menu-small-footer li a:before {content: " \2022 \0020 \0020 \0020"; color:$copywrite_text_color;}
+#menu-small-footer li a.first:before {content: "";}
+
+#copywrite.wrap p{font-size:70%; text-transform:uppercase;}
+#copywrite.wrap a{font-weight:normal;}
+
+
+//Touch Sliders
+.tc_small{padding: $spacer 0; background:#555;}
+.video-touchslider .rsOverflow{display:none !important;}
+#main_toggle{margin-top:$spacer/2; margin-bottom:$cols1;}
+#main_toggle .toggle-panel.minimal > :first-child {background: $main_toggle_bar_bg !important; color:#fff;}
+#main_toggle .toggle-panel-content .rsDefault .rsThumbs{background: $main_toggle_bg !important; -webkit-box-shadow: inset 0px 0px 200px 0px rgba(0, 0, 0, 1);}
+#main_toggle .toggle-panel-content .thumb_slider.tabs > section { background: $tab_section_bg !important; @include background-size(100%);}
+#main_toggle .toggle-panel-content .thumb_slider{ background: $tab_section_bg !important;  }
+#main_toggle .toggle-panel.minimal h1{text-align:center; font-family:$f1;}
+.header_bar{height:$cols1; width:100%; background:$main_toggle_bar_bg;}
+#main_toggle .toggle-panel.minimal .accordion{display:none; opacity:0;}
+.videoGallery .rsThumb:hover {background: transparent !important;}
+.videoGallery .rsThumb.rsNavSelected {background-color: transparent !important; }
+.videoGallery h5{color:#fff !important; font-family:$f2;} 
+//.videoGallery .rsThumbsHor .rsTmb .tc_thumb:hover{@include background-size(130%); background:red;}
+//.car_3x3 .videoGallery .rsThumbsHor .rsTmb .tc_thumb:hover{@include background-size(130%); background:red;}
+
+
+//video Slider
+.video-gallery .rsThumbs{background:$gallery_thumb_bg !important; font-family:$f1; margin-bottom:0;}
+.video-gallery .rsNavItem{background:$gallery_thumb_inside_bg; font-family:$f1; margin-bottom:0;}
+.video-gallery .rsThumb:hover {background: $c3 !important;}
+.video-gallery .rsThumb.rsNavSelected {background-color: $c3 !important;}
+.video-gallery h5{color:#fff !important; font-family:$f1;} 
+
+//Fixed Toggle Slider
+.toggle-panel.boxed{background:$fixed_toggle_panel_bg; max-height:$cols2;}
+
+//toggle Panel
+.toggle-panel.minimal > :first-child {border-bottom: 0px solid $c1;}
+
+
+//Tables
+.toggle-panel h1{font-family:$f4;}
+.footable > thead > tr > th{background:$c1; border-left: 1px solid $c3; border-top: 1px solid $c3;}
+.footable{background:#fff; font-size:120%; font-family:$f4;}
+
+// //Event Slider
+#eventSlider .videoGallery div.tc_thumb{background:$c1 !important; color:$c1 !important; @include box-shadow( $c4 0 0 0px 4px inset); }
+#eventSlider .videoGallery div.tc_thumb a span.fc-event-time{ text-transform:uppercase; float:left; font-size: 100% !important; color:$c4 !important; padding:0 !important; padding:$spacer/2 !important; width:100%; }
+#eventSlider .videoGallery div.tc_thumb a h4.fc-event-title{font-size:80% !important; line-height:1.2em; font-weight:bold !important; text-transform:capitalize; color: $c4; font-family:$body_font; padding:0 $spacer/2 $spacer/2 $spacer/2 !important;}
+
+// .rsThumbsHor a{text-align:left; position:relative;}
+
+
+//Mail Chimp
+#mailChip_Wrapper{height:$cols2; padding:$cols1 0 $spacer 0;}
+#mc_embed_signup{padding:$cols1; width:$cols5; position:absolute; right:50%; margin-right: -($cols6 + $spacer)/2 !important; z-index:999;}
+#mc_embed_signup p{font-size:80%; font-family:$f2; color:#fff; padding-top:$spacer; text-align:center !important;}
+#mc_embed_signup .email{float:left; width:$cols3;}
+#mc_embed_signup #mc-embedded-subscribe{float:right; width:$cols2; margin:0 !important;}
+
+
+//waybetter cups
+#content .project.small{
+	overflow:visible !important;
+}
+
+// #content .project.small .title {
+// //display: none;
+// color: #FFF;
+// position: absolute;
+// top: 0;
+// left: 0;
+// padding: 0;
+// font-size: 1.1em;
+// width: 80% !important;
+// font-size: 14px;
+// line-height: 1.1em;
+// height: 80% !important;
+// margin: -50% 0 0 0 !important;
+	
+// 	/*background: transparent url(images/black_alpha_50.png);	*/
+// 	background:  url(images/ui/SeedRO_BlackBean.png) no-repeat center center;
+// @include background-size(cover);
+// -moz-transform: scale(0) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -webkit-transform: scale(0) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -o-transform: scale(0) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -ms-transform: scale(0) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// transform: scale(0) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+
+
+// -webkit-transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1); /* older webkit */
+// -webkit-transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//    -moz-transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//     -ms-transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//      -o-transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//         transition: all 500ms cubic-bezier(0.425, 0.030, 0.020, 1.565); /* custom */
+
+// -webkit-transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1); /* older webkit */
+// -webkit-transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//    -moz-transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//     -ms-transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//      -o-transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1.565); 
+//         transition-timing-function: cubic-bezier(0.425, 0.030, 0.020, 1.565); /* custom */
+//        @include transition-duration(0.15s);
+// }
+
+// #content .project.small:hover .title {
+// @include transition-duration(0.15s);
+// -moz-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -webkit-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -o-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// -ms-transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// transform: scale(1) rotate(3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+// }
+
+
+
+
+
+
+
+// #content .project.small .title.sprouted-black-beans {
+// background: url(../images/wbs/SeedRO_BlackBean.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.sweet-potato {
+// background: url(../images/wbs/SeedRO_SweetPotato.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.pure-sea-salt {
+// background: url(../images/wbs/SeedRO_SeaSalt.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.organic-sprouted-brown-rice-flour {
+// background: url(../images/wbs/SeedRO_BrownRice.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.stone-ground-corn {
+// background: url(../images/wbs/SeedRO_SonteGroundCorn.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+
+// #content .project.small .title.sprouted-broccoli-seeds {
+// background: url(../images/wbs/SeedRO_Broccoli.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.organic-stone-ground-blue-corn {
+// background: url(../images/wbs/SeedRO_StoneBlueCorn.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+
+// #content .project.small .title.organic-sprouted-quinoa {
+// background: url(../images/wbs/SeedRO_Quinoa.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.high-oleic-sunflower-andor-safflower-oil {
+// background: url(../images/wbs/SeedRO_HoSunflowerOil.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.organic-sprouted-flax-seed {
+// background: url(../images/wbs/SeedRO_FlaxSeed.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+
+// #content .project.small .title.daikon-radish-seeds {
+// background: url(../images/wbs/SeedRO_DaikonRadish.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+// #content .project.small .title.chia-seeds {
+// background: url(../images/wbs/SeedRO_Chia.png) no-repeat center center;
+// @include background-size(cover);
+// }
+
+
+
+// /*Filter Colors------------------*/
+// #filterNav .multi-grain, .multi-grain {
+// color: #febe10 !important;
+// }
+// #filterNav .multi-grain.selected, #filterNav .multi-grain:hover {
+// background: #febe10;
+// color: #fff !important;
+// }
+
+// #filterNav .black-bean, .black-bean {
+// color: #8dc63f !important;
+// }
+// #filterNav .black-bean.selected, #filterNav .black-bean:hover {
+// background: #8dc63f;
+// color: #fff !important;
+// }
+
+// #filterNav .no-salt-naked-blues, .naked-blues  {
+// color: #a0cced !important;
+// }
+// #filterNav .no-salt-naked-blues.selected, #filterNav .no-salt-naked-blues:hover {
+// background: #a0cced;
+// color: #fff !important;
+// }
+
+// #filterNav .sweeet-potato, .sweeet-potato {
+// color: #f8981d !important;
+// }
+// #filterNav .sweeet-potato.selected, #filterNav .sweeet-potato:hover {
+// background: #f8981d;
+// color: #fff !important;
+// }
+
+// #filterNav .sweet-chili, .sweet-chili {
+// color: #d2232a !important;
+// }
+// #filterNav .sweet-chili.selected, #filterNav .sweet-chili:hover {
+// background: #d2232a;
+// color: #fff !important;
+// }
+
+// #filterNav .unbeatable-blues, .unbeatable-blues {
+// color: #6a7fb6 !important;
+// }
+// #filterNav .unbeatable-blues.selected, #filterNav .unbeatable-blues:hover {
+// background: #6a7fb6;
+// color: #fff !important;
+// }
+
+
+
+
+
+
+
+//social Network Icons
+#socialIcons a {float:right;}
+#footerNav #socialIcons a{width:100%; position:relative;  font-size:100% !important; }
+#footerNav #socialIcons {width:100%; position:relative; }
+#footerNav #socialIcons ul{float:right;}
+#footerNav #socialIcons ul li{
+	display:block; 
+	float:left; 
+	height:$spacer; 
+	width:$spacer; 
+	//background:$c2; 
+	margin:0 0 0 $spacer/4; 
+	padding:0 !important;
+//@include border-radius( 50%);
+//@include background-size(90%); 
+//font-family:$fSocial !important;
+}
+
+
+
+
+.socialIcons li {@include border-radius(); background-color:$social_icon_bg !important; font-size:100% !important; height:$spacer; width:$spacer; overflow:visible; cursor:pointer;  background-repeat: no-repeat !important; background-position:center center !important; text-align:center; @include filter( grayscale(1) sepia(0)); @include transition-duration(0.3s); }
+.socialIcons li:hover{@include filter(grayscale(0) sepia(0));}
+
+.socialIcons li.facebook_icon{background-image: url(../images/social_icons/facebook.png) !important;}
+.socialIcons li.facebook_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: -0.5% -2.5% !important; @include background-size(1500%); }
+.socialIcons li.facebook_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 55.5% -2.5% !important; @include background-size(1500%); }
+
+.socialIcons li.twitter_icon{background-image: url(../images/social_icons/twitter.png) !important;}
+.socialIcons li.twitter_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 22% -2.5% !important; @include background-size(1500%); }
+
+.socialIcons li.pinterest_icon{background-image: url(../images/social_icons/pinterest.png) !important;}
+.socialIcons li.pinterest_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 22% 105% !important; @include background-size(1500%); }
+
+.socialIcons li.google_icon{background-image: url(../images/social_icons/googleplus-revised.png) !important;}
+.socialIcons li.google_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 89.5% -2.5% !important; @include background-size(1500%); }
+
+.socialIcons li.tumblr_icon{background-image: url(../images/social_icons/tumblr.png) !important;}
+.socialIcons li.tumblr_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 44.5% 50% !important; @include background-size(1500%); }
+
+.socialIcons li.linkedin_icon{background-image: url(../images/social_icons/linkedin.png) !important;}
+.socialIcons li.linkedin_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: -0.3% 50% !important; @include background-size(1500%); }
+
+
+.socialIcons li.youtube_icon{background-image: url(../images/social_icons/youtube.png) !important;}
+.socialIcons li.youtube_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 78% 50% !important; @include background-size(1500%); }
+
+.socialIcons li.vimeo_icon{background-image: url(../images/social_icons/vimeo.png) !important;}
+.socialIcons li.vimeo_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 22% 50% !important; @include background-size(1500%); }
+
+.socialIcons li.instagram_icon{background-image: url(../images/social_icons/youtube.png) !important;}
+.socialIcons li.instagram_icon{background-color:$c2; background-image: url(../images/social_icons/picons-social.png) !important; background-position: 78% -2.5% !important; @include background-size(1500%); }
+
+
+
+

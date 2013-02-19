@@ -1,0 +1,92 @@
+
+@import "settings";
+@import "frameless";
+@import "breakpoint";
+
+
+/* ///////////////////////////////////////////////////////////////////// 
+//  00 - Breakpoint Variables
+/////////////////////////////////////////////////////////////////////*/
+
+// create $breakpoint variables like so
+// assume min-width (by default) if only a number
+
+$breakpoint-mobile: 500px;
+$breakpoint-mobile-em: $cols6;
+$breakpoint-2cols: $cols2;
+$breakpoint-3cols: $cols3;
+$breakpoint-4cols: $cols4;
+$breakpoint-5cols: $cols5;
+$breakpoint-6cols: $cols6;
+$breakpoint-7cols: $cols7;
+$breakpoint-8cols: $cols8;
+$breakpoint-9cols: $cols9;
+$breakpoint-10cols: $cols10;
+$breakpoint-11cols: $cols11;
+$breakpoint-12cols: $cols12;
+$breakpoint-13cols: $cols13;
+$breakpoint-14cols: $cols14;
+$breakpoint-15cols: $cols15;
+$breakpoint-16cols: $cols16;
+$breakpoint-17cols: $cols17;
+$breakpoint-18cols: $cols18;
+$breakpoint-19cols: $cols19;
+$breakpoint-20cols: $cols20;
+$breakpoint-21cols: $cols21;
+$breakpoint-22cols: $cols22;
+$breakpoint-23cols: $cols23;
+$breakpoint-24cols: $cols24;
+$breakpoint-25cols: $cols25;
+$breakpoint-26cols: $cols26;
+$breakpoint-27cols: $cols27;
+$breakpoint-28cols: $cols28;
+$breakpoint-29cols: $cols29;
+$breakpoint-30cols: $cols30;
+
+
+
+
+
+$breakpoint-medium-width: 500px;
+$breakpoint-medium-width-em: 30em;
+// set min-width/max-width if both values are numbers
+$breakpoint-medium-not-wide: 500px 700px;
+// set min/max of feature if there are two numbers
+$breakpoint-medium-height: 300px 700px 'height';
+// if one value is a string, assume a feature/value pair
+$breakpoint-kind-of-wide: min-width 700px;
+$breakpoint-not-too-wide: max-width 700px;
+// for multidimensional lists, assume each item is a feature value pair
+$breakpoint-wide-portrait: max-width 700px, orientation portrait;
+// handle one-sided features (ie. monochrome)
+$breakpoint-wide-portrait-mono: max-width 700px, orientation portrait, monochrome;
+$breakpoint-mono: monochrome;
+$breakpoint-hi-rez: 2 device-pixel-ratio;
+
+
+// @mixin breakpoint($point) {
+//   @if $point == 4cols {
+//     @media (max-width: $cols4) { @content; }
+//   }
+//  @if $point == 6cols {
+//     @media (max-width: $cols6) { @content; }
+//   }
+//   @if $point == 8cols {
+//     @media (max-width: $cols8) { @content; }
+//   }
+//   @if $point == 10cols {
+//     @media (max-width: $cols10) { @content; }
+//   }
+//   @if $point == 12cols {
+//     @media (max-width: $cols12) { @content; }
+//   }
+//   @if $point == 14cols {
+//     @media (max-width: $cols14) { @content; }
+//   }
+//   @if $point == 16cols {
+//     @media (max-width: $cols16) { @content; }
+//   }
+//   @else if $point == baby-bear {
+//     @media (max-width: 650px)  { @content; }
+//   }
+// }

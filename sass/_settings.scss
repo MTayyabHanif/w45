@@ -1,0 +1,514 @@
+////////////////////////////////////////////////////////////////////// 
+// Client
+/////////////////////////////////////////////////////////////////////
+
+// $client: prefare;
+// $client: rmtc;
+// $client: test;
+
+////////////////////////////////////////////////////////////////////// 
+// Grid Settings
+/////////////////////////////////////////////////////////////////////
+
+$font-size: 16px;// Your base font-size in pixels
+$line: 24px;
+$em: $font-size / 1em;	// Shorthand for outputting ems
+$column: 48px;	// The column-width of your grid in pixels
+$gutter: 24px;	// The gutter-width of your grid in pixels
+@import "frameless";
+
+////////////////////////////////////////////////////////////////////// 
+// Default Settings
+/////////////////////////////////////////////////////////////////////
+
+//Thumb
+$thumb_radius: 0%;
+
+//colors
+$c1: rgba(119,120,124, 1);
+
+//Prefare
+$c1:#666;
+$c2:#FF9E15;
+$c3:#666;
+$c4:#666;
+$c5:#666;
+
+$emphasis: rgba(249,155,39, 1);
+$headerColor: #fff;
+$pageHead: #000000;
+$green:  #719d08;
+$orange: #c5701a;
+$lite_tan: #f7f3e8;
+$tan: #8a7a67;
+$dark_tan: #635c53;
+$blue: #4e5460;
+$h_shadow: 5px 0px 15px rgba(0, 0, 0, 0);
+$p_shadow: 0 0 4px rgba(0,0,0,0);
+$a25: lighten($emphasis, 80%);
+
+$white:#fff;
+$black: #000;
+
+//Fonts 
+$f1:  'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$f2:'Raleway', 'Arial', sans-serif;
+$f3: Georgia, Times, "Times New Roman", serif;
+$f4: 'myriad_pro_condbold',sans-serif;
+$f5: "Courier New", Courier, serif;
+$body_font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$mainNav_font: 'Raleway', 'Arial', sans-serif;
+
+
+.text_small{
+	font-size:.8em !important;
+	padding:2% 0;
+}
+
+a { font-smooth:always !important; -webkit-font-smoothing: antialiased !important; font-smoothing: antialiased !important; }
+
+h1, h2, h3, h4, h5{font-weight:normal !important; font-smooth:always !important; -webkit-font-smoothing: antialiased !important; font-smoothing: antialiased !important; 
+}
+
+
+
+
+
+////////////////////////////////////////////////////////////////////// 
+//  Borders/Padding/Margins
+/////////////////////////////////////////////////////////////////////
+//pagehead
+$pageHead_inside_border: solid $spacer/8 $c1;
+$pageHead_inside_padding: $spacer 0 0;
+$pageHead_inside_margin: $spacer auto $spacer;
+
+////////////////////////////////////////////////////////////////////// 
+// Textures/backgrounds
+/////////////////////////////////////////////////////////////////////
+
+//body
+//$body_bg: url(../images/ui/wood_bg.png) repeat top center;
+$body_bg: transparent;
+$banner_bg: url(../images/ui/blackboard1.jpg) center center;
+
+//header
+$header_bg: transparent;
+$header_inside_bg:transparent;
+$header_small_nav_bg: #ccc;
+$header_small_nav_inside_bg:transparent;
+
+//sidebar
+$sidebar_bg:transparent;
+
+//home page
+$mission_bg:transparent;
+$mission_inside_bg:transparent;
+
+//slideshow
+$slide_text_bg:transparent;
+$slide_text_inside_bg:transparent;
+
+//main content
+$wrap_bg:transparent;
+$pageHead_bg:transparent;
+$pageHead_inside_bg: transparent;
+$content_bg: transparent;
+$content_inside_bg:transparent;
+
+//footer
+$footer_bg: transparent;
+$footer_inside_bg: transparent;
+$footerNav_bg: transparent;
+$footerNav_inside_bg:transparent;
+$copywrite_bg: transparent;
+$copywrite_inside_bg: transparent;
+
+//buttons
+$social_icon_bg: transparent;
+
+//sliders
+$main_toggle_bar_bg: #333;
+$main_toggle_bg: #333;
+$tab_section_bg: transparent;
+
+//Main Nav
+$main_nav_color: #ccc;
+$main_nav_color_hover:$c2;
+
+//header
+$small_header_nav_font_color:#222222;
+$header_wrap_bg:transparent;
+$header_bg: transparent;
+$header_inside_bg:transparent;
+$header_small_nav_bg: transparent;
+$header_small_nav_inside_bg: transparent;
+
+// //blog
+$blog_post_bg:transparent;
+
+//footer
+$footer_bg: transparent;
+$footer_inside_bg: transparent;
+$footerNav_bg: transparent;
+$footerNav_inside_bg:transparent;
+$copywrite_bg: transparent;
+$copywrite_text_color:transparent;
+$copywrite_link_color:transparent;
+$copywrite_inside_bg: transparent;
+$footer_bar_bg: transparent;
+
+//sliders Toggle
+$fixed_toggle_panel_bg: transparent;
+$main_toggle_bar_bg: transparent;
+$main_toggle_bg:#333;
+$tab_section_bg: transparent;
+
+//video Gallery
+$gallery_thumb_bg: transparent;
+$gallery_thumb_inside_bg:transparent;
+
+//buttons
+$social_icon_bg: transparent;
+
+//sliders
+$fixed_toggle_panel_bg: transparent;
+$main_toggle_bar_bg: #111;
+$main_toggle_bg: transparent;
+$tab_section_bg: #444;
+
+//video Gallery
+$gallery_thumb_bg: transparent;
+$gallery_thumb_inside_bg:transparent;
+
+
+
+
+
+
+
+
+
+
+// ///////////////////////////////////////////////////////////////////////
+// //Clients                /////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////
+
+
+// @if $client == prefare { 
+
+// //Prefare
+// $c1:#666;
+// $c2:#FF9E15;
+// $c3:#666;
+// $c4:#666;
+// $c5:#666;
+
+// //fonts
+// $f1: 'BebasNeueRegular', 'OstrichSansBlack', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f2: 'BebasNeueRegular', 'OstrichSansBlack','Raleway', 'Arial', sans-serif;
+// $body_font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f4: 'myriad_pro_condbold',sans-serif;
+// $mainNav_font: 'BebasNeueRegular', 'OstrichSansBlack','Raleway', 'Arial', sans-serif;
+
+// //Thumbs
+// $thumb_radius: 50%;
+
+// $body_bg: #fff url(../images/ui/wood_bg.png) repeat top center; 
+// //header
+// $small_header_nav_font_color:$c1;
+
+// //Main Nav
+// $main_nav_color: $c1;
+// $main_nav_color_hover:$c2;    
+// } 
+// @elseif $client == rmtc  { 
+
+// ///////////////////////////////////////////////////////////////////////
+// //ROCKY MOUNTAIN TABLE CO/////////////////////////////////////////////
+// //////////////////////////////////////////////////////////////////////
+
+// $c1: #222;
+// $c2: #882826;
+// $c3:#3b2313;
+// $c4:#ccc;
+// $c5:#ead7b7;
+
+// $f1: 'OstrichSansBlack', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f2: 'OstrichSansBlack','Raleway', 'Arial', sans-serif;
+// $body_font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f4: 'myriad_pro_condbold',sans-serif;
+// $mainNav_font: 'OstrichSansBlack','Raleway', 'Arial', sans-serif;
+
+// //Thumbs
+// $thumb_radius: 0%;
+
+
+// $body_bg: url(../images/ui/textures/stucco.png) repeat top center fixed;
+// //header
+// $small_header_nav_font_color:#fff;
+// $header_wrap_bg:transparent;
+// $header_bg: transparent;
+// $header_inside_bg:transparent;
+// $header_small_nav_bg: transparent;
+// $header_small_nav_inside_bg: transparent;
+
+// //Main Nav
+// $main_nav_color: #ccc;
+// $main_nav_color_hover:$c2;
+
+// //sidebar
+// $sidebar_bg:transparent;
+
+// //home page
+// $mission_bg:transparent;
+// $mission_inside_bg:transparent;
+
+// //slideshow
+// $slide_text_bg:transparent;
+// $slide_text_inside_bg:transparent;
+
+// // //blog
+// $blog_post_bg:transparent url(../images/wbs/double_line_gr.png) bottom center repeat-x;
+
+// //main content
+// $wrap_bg: transparent;
+// $pageHead_bg:transparent;
+// $pageHead_inside_bg: transparent;
+// $content_bg: transparent;
+// $content_inside_bg: transparent;
+
+// //footer
+// $footer_bg: transparent;
+// $footer_inside_bg: transparent;
+// $footerNav_bg: transparent;
+// $footerNav_inside_bg:transparent;
+// $copywrite_bg: transparent;
+// $copywrite_text_color:#ccc;
+// $copywrite_link_color:$c2;
+// $copywrite_inside_bg: transparent;
+// $footer_bar_bg: transparent;
+
+
+// //sliders Toggle
+// $fixed_toggle_panel_bg: transparent;
+// $main_toggle_bar_bg: #444;
+// $main_toggle_bg: #333;
+// $tab_section_bg: #000;
+
+// //video Gallery
+// $gallery_thumb_bg: #333;
+// $gallery_thumb_inside_bg: #333;
+
+
+// //buttons
+// $social_icon_bg: transparent;
+
+// //sliders
+// $fixed_toggle_panel_bg: transparent;
+// $main_toggle_bar_bg: #444;
+// $main_toggle_bg: #333;
+// $tab_section_bg: #000;
+
+// //video Gallery
+// $gallery_thumb_bg: #333;
+// $gallery_thumb_inside_bg:#111;
+
+// }@elseif $client == waybettersnacks  { 
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////////
+// //Way Better Snacks/////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// //colors
+// $c1: #383532;
+// $c2: #81BD41;
+// $c3:#3b2313;
+// $c4:#a8a190;
+// $c5:#ead7b7;
+
+// //fonts
+// $f1: 'lhf_union_thugregular', 'Raleway', "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f2: 'just_the_way_you_areregular','Raleway', 'Arial', sans-serif;
+// $body_font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// $f3: 'lhf_viennaregular', Georgia, Times, "Times New Roman", serif;
+// $f4: 'myriad_pro_condbold',sans-serif;
+// $f5: "Courier New", Courier, serif;
+
+// //Thumbs
+// $thumb_radius: 0%;
+
+
+// $body_bg: url(../images/wbs/bg.jpeg) repeat top center;
+// //Main Nav
+// $main_nav_color: #ccc;
+// $main_nav_color_hover:$c2;
+// //Mobile Nav
+// $mobile_nav_bg: #35270F url(../images/wbs/slider_nav_bar_bg.png) center bottom;
+
+// //Small Header Nav
+// $small_header_nav_font_color:#fff;
+// //header
+// $header_wrap_bg:#35270F url(../images/wbs/blackboard.jpeg) bottom center;
+// $header_bg: transparent url(../images/wbs/tan_head_arc.png) bottom center;
+// $header_inside_bg:transparent;
+// $header_small_nav_bg: #35270F url(../images/wbs/slider_nav_bar_bg.png) bottom center;
+// $header_small_nav_inside_bg: transparent;
+
+// //sidebar
+// $sidebar_bg:transparent;
+
+// //home page
+// $mission_bg: transparent url(../images/wbs/blank_bar_bg.png) top center repeat-x;
+// $mission_inside_bg:transparent;
+
+// //slideshow
+// $slide_text_bg:transparent;
+// $slide_text_inside_bg:transparent;
+
+// //main content
+// $wrap_bg: transparent;
+// $pageHead_bg:transparent;
+// $pageHead_inside_bg: transparent url(../images/wbs/double_line_gr.png) bottom center repeat-x;
+// $content_bg: transparent;
+// $content_inside_bg: transparent;
+
+// //footer
+// $footer_bar_bg: transparent url(../images/wbs/pulldown_tab_border.png) bottom center repeat-x;
+// $footer_bg: #35270F url(../images/wbs/canvas_texture.jpeg) top center;
+// $footer_inside_bg: transparent;
+// $footerNav_bg: transparent;
+// $footerNav_inside_bg:transparent;
+// $copywrite_bg: #35270F url(../images/wbs/slider_nav_bar_bg.png) bottom center;
+// $copywrite_inside_bg: transparent;
+
+// //blog
+// $blog_post_bg:transparent url(../images/wbs/double_line_gr.png) bottom center repeat-x;
+
+// //buttons
+// $social_icon_bg: transparent;
+
+// //sliders Toggle
+// $main_toggle_bar_bg: transparent url(../images/wbs/pull_down_bar3.png) top center;
+// $main_toggle_bg: #35270F url(../images/wbs/leather_bg.jpeg) center center;
+// $tab_section_bg: #35270F url(../images/wbs/slider_nav_bar_bg.png) bottom center repeat-x;
+// //$fixed_toggle_panel_bg:#35270F url(../images/wbs/blackboard.jpeg) bottom center;
+// $fixed_toggle_panel_bg: #a8a190;
+// //video Gallery
+// $gallery_thumb_bg: #35270F url(../images/wbs/canvas_texture.jpeg) top center;
+// $gallery_thumb_inside_bg: transparent url(../images/wbs/double_line_gr.png) bottom center repeat-x;
+
+// }@elseif $client == test  { 
+
+
+// ////////////////////////////////////////////////////////////////////////////////////////////////////
+// //TEST/////////////////////////////////////////////////////////////////////////////////
+// ////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// $body_bg: url(../images/ui/textures/stucco.png) repeat top center fixed;
+
+// //header
+// $small_header_nav_font_color:#fff;
+// $header_wrap_bg:#222;
+// $header_bg: #222;
+// $header_inside_bg:transparent;
+// $header_small_nav_bg: #222;
+// $header_small_nav_inside_bg: transparent;
+
+// //Main Nav
+// $main_nav_color: #ccc;
+// $main_nav_color_hover:$c2;
+
+// //sidebar
+// $sidebar_bg:#efefef;
+
+// //home page
+// $mission_bg:#222;
+// $mission_inside_bg:#222;
+
+// //slideshow
+// $slide_text_bg:transparent;
+// $slide_text_inside_bg:transparent;
+
+// //main content
+// $wrap_bg: #ccc;
+// $pageHead_bg:#999;
+// $pageHead_inside_bg: #ccc;
+// $content_bg: #999;
+// $content_inside_bg: #ccc;
+
+// //footer
+// $footer_bg: #222;
+// $footer_inside_bg: #222;
+// $footerNav_bg: #333;
+// $footerNav_inside_bg:#333;
+// $copywrite_bg: #111;
+// $copywrite_inside_bg: #111;
+
+
+// //buttons
+// $social_icon_bg: #333;
+
+// //sliders
+// $main_toggle_bar_bg: #444;
+// $main_toggle_bg: #333;
+// $tab_section_bg: #000;
+
+// //video Gallery
+// $gallery_thumb_bg: #ccc;
+// $gallery_thumb_inside_bg: #333;
+
+// }
+
+
+
+
+
+
+// @mixin primary_button($var: primary) { 
+//         @if $var == secondary { 
+//                 @include alt_primary_button_color; 
+//                 @include alt_primary_button_border; 
+//         } 
+//         @else { 
+//                 @include primary_button_color; 
+//                 @include primary_button_border; 
+//         } 
+//         @include border_radius (3px); 
+//         color: $button_text; 
+//         padding: .2666667em 2em; 
+//         outline: none; 
+//         width: auto; 
+//         @include large; 
+//         margin-right: 1em; 
+
+//         &:last-child { 
+//                 margin-right: 0; 
+//         } 
+
+//         &:hover { 
+//                 @if $var == secondary { 
+//                         @include alt_primary_button_hover; 
+//                 } 
+//                 @else { 
+//                         @include primary_button_hover; 
+//                 } 
+//                 text-decoration: none; 
+//                 cursor: pointer; 
+//         } 
+
+//         &:active { 
+//                 @if $var == secondary { 
+//                         @include alt_primary_button_active; 
+//                 } 
+//                 @else { 
+//                         @include primary_button_active; 
+//                 } 
+
+//         } 
+
+//         &[disabled] { 
+//                 @include button_disabled; 
+//         } 
+// } 
+
+
